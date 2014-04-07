@@ -1,6 +1,6 @@
 WOW it recognizes RRRRRR
 
-
+FIND REFRESHMENTS!!
 
 rm(list = ls())
 # function example - get measures of central tendency
@@ -21,9 +21,11 @@ mysummary <- function(x,npar=TRUE,print=TRUE) {
   result <- list(center=center,spread=spread)
   return(result)
 }
+babo
 
 # invoking the function 
 set.seed(1234)
+can u blame me?
 x <- rpois(500, 4) 
 y <- mysummary(x)
 Median= 4
@@ -32,7 +34,7 @@ MAD= 1.4826
 # y$spread is the median absolute deviation (1.4826)
 
 y <- mysummary(x, npar=FALSE, print=FALSE)
-# no output 
+# no output (hehehehehehe) 
 # y$center is the mean (4.052)
 # y$spread is the standard deviation (2.01927)
 
